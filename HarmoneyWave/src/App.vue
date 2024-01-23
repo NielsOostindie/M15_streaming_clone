@@ -90,7 +90,7 @@ let openMenu = ref(false);
         <router-link to="/search">
           <MenuItem
             class="ml-[1px]"
-            :iconSize="23"
+            :iconSize="24"
             name="Search"
             iconString="search"
             pageUrl="/search"
@@ -98,15 +98,53 @@ let openMenu = ref(false);
         </router-link>
         <router-link to="/library">
           <MenuItem
-            class="ml-[1px]"
+            class="ml-[2px]"
             :iconSize="23"
             name="Library"
             iconString="library"
             pageUrl="/library"
           />
         </router-link>
+        <div class="py-3.5"></div>
+        <MenuItem
+            :iconSize="23"
+            name="Create Playlist"
+            iconString="playlist"
+            pageUrl="/playlist"
+          />
+        <MenuItem
+            class="-ml-[1px]"
+            :iconSize="27"
+            name="Liked Songs"
+            iconString="liked"
+            pageUrl="/liked"
+          />
+      </ul>
+      <div class="border-b border-b-gray-700"></div>
+      <ul>
+        <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My playlist #1</li>
+        <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My playlist #2</li>
+        <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My playlist #3</li>
+        <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My playlist #4</li>
       </ul>
     </div>
+  </div>
+    <div
+      class="
+      fixed
+      right-0
+      top-0
+      w-[calc(100%-240px)]
+      overflow-auto
+      h-full
+      bg-gradient-to-b
+      from-[#1C1C1C]
+      to-black
+      "
+    >
+    <div class="mt-[70px]"></div>
+    <routerView/>
+    <div class="mb-[100px]"></div>
   </div>
 </template>
 
