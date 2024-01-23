@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import MenuItem from "./components/menuItem.vue";
+import MenuItem from "./components/MenuItem.vue";
 
 import ChevronUp from "vue-material-design-icons/ChevronUp.vue";
 import ChevronDown from "vue-material-design-icons/ChevronDown.vue";
@@ -78,8 +78,32 @@ let openMenu = ref(false);
       </router-link>
       <div class="my-8"></div>
       <ul>
-        <router-link to="/"> 
-        <MenuItem/>
+        <router-link to="/">
+          <MenuItem
+            class="ml-[1px]"
+            :iconSize="23"
+            name="Home"
+            iconString="home"
+            pageUrl="/"
+          />
+        </router-link>
+        <router-link to="/search">
+          <MenuItem
+            class="ml-[1px]"
+            :iconSize="23"
+            name="Search"
+            iconString="search"
+            pageUrl="/search"
+          />
+        </router-link>
+        <router-link to="/library">
+          <MenuItem
+            class="ml-[1px]"
+            :iconSize="23"
+            name="Library"
+            iconString="library"
+            pageUrl="/library"
+          />
         </router-link>
       </ul>
     </div>
