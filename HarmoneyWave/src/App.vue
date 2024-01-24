@@ -143,7 +143,7 @@ let openMenu = ref(false);
       "
     >
     <div class="mt-[70px]"></div>
-    <routerView/>
+    <RouterView/>
     <div class="mb-[100px]"></div>
   </div>
 </template>
