@@ -1,0 +1,98 @@
+{
+    "name": "Starboy",
+    "albumCover": "/images/albumCovers/Starboy.png",
+    "releaseYear": "2016",
+    "tracks": [
+        {
+            "id": 1,
+            "name": "Starboy",
+            "path": "/songs/Starboy [3_g2un5M350].webm"
+        },
+        {
+            "id": 2,
+            "name": "Party Monster",
+            "path": "/songs/Party Monster [17c7kDMG_mU].webm"
+        },
+        {
+            "id": 3,
+            "name": "False Alarm",
+            "path": "/songs/False Alarm [jBhbgZYz7pI].webm"
+        },
+        {
+            "id": 4,
+            "name": "Reminder",
+            "path": "/songs/Reminder [a40tAP5MC6M].webm"
+        },
+        {
+            "id": 5,
+            "name": "Rockin'",
+            "path": "/songs/Rockin’ [BCvmAySCnLk].webm"
+        },
+        {
+            "id": 6,
+            "name": "Secrets",
+            "path": "/songs/Secrets [2QcSvOSXTBc].webm"
+        },
+        {
+            "id": 7,
+            "name": "True Colors",
+            "path": "/songs/True Colors [3Ox2AWEFhjQ].webm"
+        },
+        {
+            "id": 8,
+            "name": "Stargirl Interlude",
+            "path": "/songs/Stargirl Interlude [U2TPS-9oMtc].webm"
+        },
+        {
+            "id": 9,
+            "name": "Sidewalks",
+            "path": "/songs/Sidewalks [DWi73D1vZTc].webm"
+        },
+        {
+            "id": 10,
+            "name": "Six Feet Under",
+            "path": "/songs/Six Feet Under [Jt5nPuMgKA8].webm"
+        },
+        {
+            "id": 11,
+            "name": "Love to Lay",
+            "path": "/songs/Love To Lay [a1PkVEHV-w8].webm"
+        },
+        {
+            "id": 12,
+            "name": "A Lovely Night",
+            "path": "/songs/A Lonely Night [atGlHRi0n4A].webm"
+        },
+        {
+            "id": 13,
+            "name": "Attention",
+            "path": "/songs/Attention [RPCqZssID78].webm"
+        },
+        {
+            "id": 14,
+            "name": "Ordinary Life",
+            "path": "/songs/Ordinary Life [tX2ncrjdZ3o].webm"
+        },
+        {
+            "id": 15,
+            "name": "Nothing Without You",
+            "path": "/songs/Nothing Without You [1ExndLNGnmY].webm"
+        },
+        {
+            "id": 16,
+            "name": "All I Know",
+            "path": "/songs/All I Know [sfvFAqzIGh8].webm"
+        },
+        {
+            "id": 17,
+            "name": "Die For You",
+            "path": "/songs/Die For You [mTLQhPFx2nM].webm"
+        },
+        {
+            "id": 19,
+            "name": "I Feel It Coming",
+            "path": "/songs/I Feel It Coming [qPRNIHxLhmc].webm"
+        }
+    ]
+}
+
