@@ -3,6 +3,7 @@
   import { RouterLink, RouterView } from 'vue-router'
   import MenuItem from './components/MenuItem.vue';
   import MusicPlayer from './components/MusicPlayer.vue'
+  import PlaylistView from './views/PlaylistView.vue';
   import ChevronUp from 'vue-material-design-icons/ChevronUp.vue';
   import ChevronDown from 'vue-material-design-icons/ChevronDown.vue';
   import ChevronRight from 'vue-material-design-icons/ChevronRight.vue';
@@ -89,7 +90,10 @@
             </ul>
             <div class="border-b border-b-gray-700"></div>
             <ul>
+              <router-link to="/playlist" >
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #1</li>
+              </router-link>
+      
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #2</li>
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #3</li>
                 <li class="font-semibold text-[13px] mt-3 text-gray-300 hover:text-white">My Playlist #4</li>

@@ -1,0 +1,58 @@
+{
+    "name": "Trilogy",
+    "albumCover": "/images/albumCovers/Trilogy.png",
+    "releaseYear": "2012",
+    "tracks": [
+        {
+            "id": 1,
+            "name": "High for This",
+            "path": "/songs/High For This [xrKa5d1it3c].webm"
+        },
+        {
+            "id": 2,
+            "name": "What You Need",
+            "path": "/songs/What You Need [jwItX1w8fUo].webm"
+        },
+        {
+            "id": 3,
+            "name": "House Of Balloons / Glass Table Girls",
+            "path": "/songs/House Of Balloons ⧸ Glass Table Girls [WsS7xwvyBYQ].webm"
+        },
+        {
+            "id": 4,
+            "name": "The Morning",
+            "path": "/songs/The Morning [Ir4HfQL4XkQ].webm"
+        },
+        {
+            "id": 5,
+            "name": "Wicked Games",
+            "path": "/songs/Wicked Games [IQgkSN_BIsI].webm"
+        },
+        {
+            "id": 6,
+            "name": "The Party & The After Party",
+            "path": "/songs/The Party & The After Party [BgbkezO-lWY].webm"
+        },
+        {
+            "id": 7,
+            "name": "Coming Down",
+            "path": "/songs/Coming Down [lEuqUHuqZrY].webm"
+        },
+        {
+            "id": 8,
+            "name": "Loft Music",
+            "path": "/songs/Loft Music [m52rUAKGMFE].webm"
+        },
+        {
+            "id": 9,
+            "name": "The Knowing",
+            "path": "/songs/The Knowing [7QN4Y-HWgBQ].webm"
+        },
+        {
+            "id": 10,
+            "name": "Twenty Eight",
+            "path": "/songs/Twenty Eight [SDIgl32qeM0].webm"
+        }
+    ]
+}
+
